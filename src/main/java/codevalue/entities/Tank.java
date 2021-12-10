@@ -1,9 +1,5 @@
 package codevalue.entities;
 
-import codevalue.utils.SystemUtils;
-import com.sun.xml.internal.ws.developer.Serialization;
-import sun.plugin2.util.SystemUtil;
-
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
