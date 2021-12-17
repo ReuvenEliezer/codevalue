@@ -1,13 +1,14 @@
 package codevalue.utils;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class LoggerWrapper {
 
     private Logger logger;
 
     public LoggerWrapper(String name) {
-        this.logger = Logger.getLogger(name);
+        this.logger = LogManager.getLogger(name);
     }
 
     public void debugFormat(String methodName, String format, Object... args) {
